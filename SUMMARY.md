@@ -1,28 +1,66 @@
-# Project Summary
+# Daily Task Manager – Project Summary
 
-## Daily Task Manager
+## 1. Student Information
 
-This project is a simple Python console-based task manager.
+- **Name:** Abhishek Kumar
+- **Class/Section:** B.TECH / K
+- **Roll Number:** RU-26-02064
 
-### Main Functions
+## 2. Project Overview
 
-- Add tasks
-- View tasks by priority
-- Check pending tasks
-- Complete tasks
-- Save tasks in `tasks.txt`
+Daily Task Manager is a Python-based console application developed to help users organize and manage their daily tasks.
 
-### Technologies
+It allows users to add tasks, view tasks according to priority, check pending tasks, and mark tasks as completed. All task information is stored in a text file named `tasks.txt`.
 
-- Python
-- Lists
-- Dictionaries
-- Functions
-- File Handling
+## 3. Main Features
 
-### Author
+- Add tasks with title, priority, and due date.
+- View tasks in High, Medium, and Low priority order.
+- Display pending tasks.
+- Mark tasks as completed using Task ID.
+- Save and load task information using file handling.
 
-Abhishek Kumar
+## 4. Technologies Used
+
+- Python 3
+- Visual Studio Code
+- Lists and Dictionaries
+- Functions and File Handling
+- `os` and `datetime` modules
+
+## 5. Difficulties Faced and Solutions
+
+**1. File Handling**
+
+- Difficulty: Saving and loading task information.
+- Solution: Used Python file handling to store and retrieve tasks from `tasks.txt`.
+
+**2. Input Validation**
+
+- Difficulty: Handling incorrect priority values and date formats.
+- Solution: Used conditional statements and try-except blocks to validate user input.
+
+**3. Task Management**
+
+- Difficulty: Managing multiple tasks and updating their status.
+- Solution: Used lists and dictionaries to store and manage task details.
+
+**4. Priority Sorting**
+
+- Difficulty: Displaying tasks according to their priority.
+- Solution: Used Python's `sorted()` function and lambda expression to arrange tasks by priority.
+
+## 6. Learning Outcomes
+
+Through this project, I learned how to use functions, loops, conditional statements, lists, dictionaries, file handling, and exception handling.
+
+I also improved my logical thinking, coding skills, and ability to solve programming problems.
+
+## 7. Conclusion
+
+The Daily Task Manager project helped me understand the practical application of Python programming. It provided hands-on experience in developing a menu-driven application and managing data using file handling.
+
+Overall, this project improved my programming knowledge and problem-solving skills.
 
 ## Working Test Cases / Screenshots
 
